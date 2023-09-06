@@ -1,0 +1,73 @@
+/* Estilos para el fondo y el cuerpo de la página */
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('tu-imagen-de-fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Kalam', cursive;
+}
+
+/* Estilos para el fondo detrás del contenedor */
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(82, 82, 82, 0.5); /* Cambia el valor alpha para ajustar la opacidad del fondo */
+    z-index: -1; /* Coloca el fondo detrás de todo */
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Estilos para el contenedor del contenido con color de fondo */
+.content-container {
+    background-color: #FDF4F5; /* Cambia el color de fondo */
+    padding: 20px;
+    border-radius: 50px; /* Agrega bordes redondeados */
+    box-shadow: 0 0 5px;
+    text-align: center; /* Centra el contenido */
+    color: #797979; /* Color de texto dentro del contenedor */
+    width: 90%; /* Establece un ancho máximo */
+    max-width: 600px; /* Ajusta el ancho máximo para evitar que sea demasiado ancho en dispositivos móviles */
+    margin: 0 auto; /* Centra el contenedor en la pantalla */
+}
+
+/* Estilos para los elementos dentro del contenedor */
+.mensaje, .imagen, .carta {
+    font-family: 'Abel', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Kalam', cursive;
+    margin-bottom: 20px;
+}
+
+.Saludo, .extra {
+    font-family: 'Abel', sans-serif;
+    font-family: 'Dancing Script', cursive;
+}
+
+/* Estilos específicos para la imagen */
+.imagen-sorpresa {
+    max-width: 100%; /* Hace que la imagen sea responsive */
+    height: auto;
+    border-style: groove;
+    border-radius: 10px;
+}
+
+/* Estilos para el título "extra" */
+.extra h1 {
+    color: #FF0000; /* Cambia el color del título "extra" */
+}
+
+.Saludo h1 {
+    color: black;
+}
